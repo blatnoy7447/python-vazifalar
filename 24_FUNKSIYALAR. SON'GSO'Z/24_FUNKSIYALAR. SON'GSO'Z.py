@@ -1,6 +1,6 @@
-# lambda YOHUD NOMSIZ FUNKSIYA
-# Nomsiz funksiyalar quyidagicha yaratiladi:
-#   lambda argument:ifoda
+# # lambda YOHUD NOMSIZ FUNKSIYA
+# # Nomsiz funksiyalar quyidagicha yaratiladi:
+# #   lambda argument:ifoda
 # import math
 # uzunlik = lambda pi, r : 2*pi*r
 # print(uzunlik(math.pi, 10))
@@ -40,12 +40,12 @@
 # for son in sonlar:
 # 	kvadratlar.append(son*son)
 
-# map() funksiyasiga bir nechta ro'yxatlar ham uzatish mumkin:
+# # map() funksiyasiga bir nechta ro'yxatlar ham uzatish mumkin:
 # a = [4, 5, 6]
 # b = [7, 8, 9]
 # a_plus_b = list(map(lambda x,y : x+y, a,b))
 # print(a_plus_b)
-# map() istalgan ko'rinishdagi ma'lumot turlari bilan ishlaydi:
+# # map() istalgan ko'rinishdagi ma'lumot turlari bilan ishlaydi:
 # ismlar = ['hasan', 'husan', 'olim', 'umid']
 # print(list(map(lambda matn : matn.upper(), ismlar)))
 
@@ -62,7 +62,7 @@
 # juft_sonlar = list(filter(juftmi, sonlar))
 # print(sonlar)
 # print(juft_sonlar)
-#Keling endi shu dasturni lambda yordamida yozamiz:
+# # Keling endi shu dasturni lambda yordamida yozamiz:
 # import random as r
 
 # sonlar = r.sample(range(100), 10)
